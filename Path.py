@@ -16,7 +16,7 @@ def move_straight(robot: cozmo.robot.Robot, unit):
 
 """
 Arguments:
-wayPoints: list of points 
+way_points: list of points 
 
 """
 
