@@ -20,7 +20,6 @@ def turn_left(robot):
 def move_straight(robot: cozmo.robot.Robot, unit):
     robot.drive_straight(cozmo.util.distance_mm(unit), cozmo.util.speed_mmps(150)).wait_for_completed()
 
-
 def move(robot: cozmo.robot.Robot, x, y, unit):
 
     # avoid division by zero
@@ -75,7 +74,7 @@ def move(robot: cozmo.robot.Robot, x, y, unit):
 
 
 def cozmo_program(robot: cozmo.robot.Robot):
-    move(robot, 150, 150, 50)
+    move(robot, 0, -150, 50)
 
 
 if __name__ == "__main__":
